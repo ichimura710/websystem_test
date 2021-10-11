@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+/* グローバル */
+* {
+	color: #505050;
+}
+
+h1 {
+	border-left: 10px solid #696969;
+	border-bottom: 1px solid  #696969;
+	padding: 10px;
+	width: 80%;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+
+/* 入力フォーム */
+
+input, select {
+	padding: 5px 15px 5px 15px;
+	margin: 3px;
+/*    border-radius: 5px;        /* CSS3草案 */
+/*    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+/*    -moz-border-radius: 5px;   /* Firefox用 */
+}
+input.readOnly {
+	background-color: #696969;
+	color: #ffffff;
+}
+
+/* メッセージボックスデザイン */
+
+.msgBox {
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #696969;
+	width: 500px;
+}
+.error {
+	background-color: #ffb6c1;
+	color: #ff0000;
+}
+.warning {
+	background-color: #ff8c00;
+	color: #ff0000;
+}
+.info {
+	background-color: #b0c4de;
+	color: #000000;
+}
+
+/* 個別デザイン */
+
+th.header {
+	width: 125px;
+	text-align: right;
+}
+
+.loginInfo {
+	font-size: 9pt;
+	color: #008080;
+}
+
+td.btnArea {
+	text-align: right;
+}
